@@ -1,0 +1,73 @@
+<!DOChtml>
+<html>
+
+  <header>
+  <h1 id="title"> COVID Vaccine Survey</h1>
+  </header>
+  
+  <body>
+  <p id="description"> This is a survey to see if you've been effected by coronavirus since 2019. 
+  <div>Please answer the following questions bellow.</div> </p>
+
+  <form id="survey-form">
+    
+    <label for="name" id="name-label"> <b> Name: </label>
+    <input id="name" type="text" name="name" placeholder="Enter your name here" required> </input>
+<br> 
+
+<label for="email" id="email-label"> Email: </label>
+<input id="email" type="email" name="email" placeholder="Enter your email here" required> </input>
+<br>
+
+<label for="number" id="number-label"> Age: </label>
+<input id="number" type="number" name="number" placeholder="Enter your age here" min="18" max="100" required> </input>
+<br>
+
+<label for="dropdown" id="number-label"> You are currently: </label>
+<select id="dropdown">
+  <option value="..."> ... </option>
+  <option value="college student"> College Student </option>
+  <option value="part-time employee"> Part-Time Employee </option>
+  <option value="full-time employee"> Full-Time Employee </option>
+  <option value="freelancer"> Freelancer </option>
+  <option value="unemployed"> Unemployed </option>
+  <option value="retired"> Retired </option>
+  </select>
+<br>
+<br>
+
+<label for="gender" id="gender"> Gender </b> </label> 
+<br>
+<input id="gender" type="radio" id="male" name="gender" value="male"
+       <label for="gender" > Male </label>
+<br>
+<input id="gender" type="radio" id="female" name="gender" value="female"
+       <label for="gender" > Female </label>
+<br> 
+<br>
+
+<label for="vaccinated"> <b> Have you been vaccinated? </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="vaccinated" value="yes">
+<label for="checkbox"> Yes </label>
+<br>
+<input id="checkbox" type="checkbox" name="vaccinated" value="no">
+<label for="checkbox"> No </label>
+<br>
+<br>
+<label id="textarea"> <b> Vaccinated or not; please state why you choose to be vaccinated or unvaccinated. </b> </label>
+<br>
+<textarea id="textarea" name="instructions" rows="5" cols="40">
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="Submit"
+ 
+
+
+  </form>
+
+</body>
+</html>
+  
+  
